@@ -1,0 +1,117 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --background: rgb(187, 187, 187);
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--background);
+    border-radius: 15px;
+    margin: 0;
+}
+.header {
+    /* display: fixed;
+    top: 0; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: auto;
+    height: 150px;
+    margin: 0;
+    background-color: rgb(70, 69, 69);
+    /* border-radius: 15px; */
+    color: white;
+}
+#title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.text {
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+#img-div {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+#image {
+    /*width: 100%;*/
+    display: block;
+    max-width: 600px;
+    height: auto;
+    margin: 0;
+}
+#img-caption {
+    font-size: 12px;
+    background-color: white;
+}
+#tribute-info {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 90%;
+    max-width: 600px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+.timeline {
+    font-size: 24px;
+    color: rgb(70, 69, 69);
+}
+.list-items {
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+}
+strong {
+    color: rgb(70, 69, 69);
+    line-height: 40px;
+    border-bottom: 2px rgb(70, 69, 69) solid;
+}
+sup {
+    font-size: 11px;
+}
+.quote {
+    text-align: right;
+    font-size: 32px;
+    margin: 10px;
+}
+.strong-quote {
+    border-bottom: 0;
+}
+.more-info {
+    margin: 10px;
+}
+#tribute-link {
+    font-size: 18px;
+    background-color: auto;
+    text-decoration: none;
+    color:  rgb(163, 70, 250);
+    padding: 15px 0;
+}
+#tribute-link:hover {
+    color: rgb(133, 11, 247);
+}
